@@ -1170,6 +1170,13 @@ export default function RegistrationForm({ representante }: RegistrationFormProp
             {loading ? "Processando..." : "Salvar"}
           </Button>
         </div>
+
+        {/* Descrição do pagamento */}
+        <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+          <p className="text-sm text-gray-700 text-center">
+            Ao clicar no botão, você será redirecionado para a área de pagamento da taxa associativa, sendo ela o valor proporcional ao plano escolhido por você.
+          </p>
+        </div>
       </form>
 
       <ErrorModal open={showErrorModal} onOpenChange={setShowErrorModal} message={errorMessage} />
