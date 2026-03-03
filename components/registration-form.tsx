@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { useToast } from "@/hooks/use-toast"
 import ErrorModal from "@/components/error-modal"
 
-const DEFAULT_REFERRAL_ID = "108054" //  Layanna Kristina Chagas Araujo Faustino
+const DEFAULT_REFERRAL_ID = "164146" //  Wanessa Kristiny Chagas Faustino
 
 const BRAZILIAN_STATES = [
   { value: "AC", label: "Acre" },
